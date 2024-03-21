@@ -1,6 +1,6 @@
-import FileTree from './exercises/FileTree';
+// import FileTree from './exercises/FileTree';
 import './App.css';
 
-const App = () => <FileTree />;
+const App = () => <h1>App.js</h1>;
 
 export default App;
