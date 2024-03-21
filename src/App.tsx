@@ -1,3 +1,5 @@
-const App = () => <h1>App.js</h1>;
+import FileTree from './exercises/FileTree';
+
+const App = () => <FileTree />;
 
 export default App;
