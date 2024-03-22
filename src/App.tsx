@@ -1,5 +1,16 @@
 import './App.css';
 
-const App = () => <h1>App.js</h1>;
+const date: Date = new Date();
+const currentTime: string = date.toTimeString();
+
+type AppProps = {
+  time: string;
+};
+
+const App = ({ time = currentTime }: AppProps) => (
+  <div>
+    <p>Current Time: {time}</p>
+  </div>
+);
 
 export default App;
