@@ -7,10 +7,6 @@ type AppProps = {
   time: string;
 };
 
-const App = ({ time = currentTime }: AppProps) => (
-  <div>
-    <p>Current Time: {time}</p>
-  </div>
-);
+const App = ({ time = currentTime }: AppProps) => <p>Current Time: {time}</p>;
 
 export default App;
