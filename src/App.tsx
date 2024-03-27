@@ -1,7 +1,8 @@
 // import FileTree from './exercises/FileTree';
 // import TicTacToe from './exercises/TicTacToe';
+import Chart from './exercises/Chart';
 import './App.css';
 
-const App = () => <h1>App.tsx</h1>;
+const App = () => <Chart />;
 
 export default App;
